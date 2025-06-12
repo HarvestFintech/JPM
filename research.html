@@ -6,12 +6,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="assets/css/main.css" />
 
-  <!-- Move your style BELOW the CSS import -->
   <style>
+    /* New small navy section under header */
+    .intro-section {
+      background-color: #0a2540; /* Navy, match your header nav */
+      color: #fff;               /* White text like header */
+      padding: 0.5em 1em;
+      font-size: 1.1em;
+      font-weight: 400;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    /* Reset banner section to normal white background with no padding */
     #banner {
-      padding: 1em 0 !important;
       background: #fff !important;
-      background-image: none !important;
+      padding: 0 !important;
       min-height: auto !important;
       text-align: left !important;
     }
@@ -32,10 +42,6 @@
   </style>
 </head>
 
-
-
-
-</head>
 <body class="is-preload">
 
   <!-- Page Wrapper -->
@@ -59,10 +65,15 @@
       </ul>
     </nav>
 
-    <!-- Banner -->
+    <!-- New Navy Intro Section -->
+    <section class="intro-section">
+      Curated investment insights and analyses on select publicly traded companies
+    </section>
+
+    <!-- Banner (empty or you can remove this if you want) -->
     <section id="banner">
       <div class="inner">
-        <h2 class="major">Curated investment insights and analyses on select publicly traded companies</h2>
+        <!-- You can leave empty or remove this section -->
       </div>
     </section>
 
