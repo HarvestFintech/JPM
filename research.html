@@ -1,74 +1,114 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<title>Equity Research</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+<head>
+  <title>Equity Research</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <style>
+    .subheading {
+      font-size: 1.25rem;
+      font-weight: 300;
+      margin-top: 1rem;
+      color: rgba(255, 255, 255, 0.8);
+    }
+  </style>
+</head>
+<body class="is-preload">
 
-		<!-- Header -->
-		<header id="header">
-			<h1>Equity Research</h1>
-			<p>Curated investment insights and analyses on select publicly traded companies</p>
-		</header>
+  <!-- Navigation -->
+  <nav id="nav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="research.html" class="active">Equity Research</a></li>
+      <li><a href="newsletter.html">Newsletter</a></li>
+    </ul>
+  </nav>
+  <a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 
-		<!-- Main -->
-		<div id="main" class="container">
+  <!-- Header -->
+  <header id="header" class="alt style2">
+    <div class="inner">
+      <h1>Equity Research</h1>
+      <p class="subheading">Curated investment insights and analyses on select publicly traded companies</p>
+    </div>
+  </header>
 
-			<!-- Tiles -->
-			<section class="tiles">
+  <!-- Main -->
+  <div id="main" class="container">
 
-				<article class="style1">
-					<span class="image">
-						<img src="images/Upwk.jpg" alt="Upwork" />
-					</span>
-					<a href="https://seekingalpha.com/article/4616903-upwork-the-future-of-upwork-looks-bright" target="_blank">
-						<h2>Upwork</h2>
-						<div class="content">
-							<p>An in-depth equity research report exploring Upwork's long-term growth strategy, platform economics, and market opportunity.</p>
-						</div>
-					</a>
-				</article>
+    <!-- Tiles -->
+    <section class="tiles">
 
-				<article class="style2">
-					<span class="image">
-						<img src="images/SNAP.jpg" alt="Snap" />
-					</span>
-					<a href="https://seekingalpha.com/article/4615915-snap-embracing-the-potential-of-long-term-growth" target="_blank">
-						<h2>Snap</h2>
-						<div class="content">
-							<p>A forward-looking analysis of Snap's product innovation, monetization roadmap, and valuation upside.</p>
-						</div>
-					</a>
-				</article>
+      <article class="style1">
+        <span class="image">
+          <img src="images/Upwk.jpg" alt="Upwork" />
+        </span>
+        <a href="https://seekingalpha.com/article/4616903-upwork-the-future-of-upwork-looks-bright" target="_blank">
+          <h2>Upwork</h2>
+          <div class="content">
+            <p>An in-depth equity research report exploring Upwork's long-term growth strategy, platform economics, and market opportunity.</p>
+          </div>
+        </a>
+      </article>
 
-			</section>
+      <article class="style2">
+        <span class="image">
+          <img src="images/SNAP.jpg" alt="Snap" />
+        </span>
+        <a href="https://seekingalpha.com/article/4615915-snap-embracing-the-potential-of-long-term-growth" target="_blank">
+          <h2>Snap</h2>
+          <div class="content">
+            <p>A forward-looking analysis of Snap's product innovation, monetization roadmap, and valuation upside.</p>
+          </div>
+        </a>
+      </article>
 
-			<!-- CTA -->
-			<section id="cta" class="wrapper style3">
-				<div class="inner">
-					<header>
-						<h2>Want to see more?</h2>
-						<p>Explore the full collection of my equity research reports and articles on Seeking Alpha.</p>
-					</header>
-					<ul class="actions stacked">
-						<li><a href="https://seekingalpha.com/author/caserta-finance" class="button fit primary" target="_blank">View all Equity Research Reports</a></li>
-					</ul>
-				</div>
-			</section>
+    </section>
 
-		</div>
+    <!-- CTA -->
+    <section id="cta" class="wrapper style3">
+      <div class="inner">
+        <header>
+          <h2>Want to see more?</h2>
+          <p>Explore the full collection of my equity research reports and articles on Seeking Alpha.</p>
+        </header>
+        <ul class="actions stacked">
+          <li><a href="https://seekingalpha.com/author/caserta-finance" class="button fit primary" target="_blank">View all Equity Research Reports</a></li>
+        </ul>
+      </div>
+    </section>
 
-		<!-- Footer -->
-		<footer id="footer">
-			<div class="inner">
-				<ul class="copyright">
-					<li>&copy; 2025. All rights reserved.</li>
-				</ul>
-			</div>
-		</footer>
+  </div>
 
-	</body>
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="inner">
+      <ul class="copyright">
+        <li>&copy; 2025. All rights reserved.</li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- Navigation Panel for Mobile -->
+  <div id="navPanel">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="research.html">Equity Research</a>
+      <a href="newsletter.html">Newsletter</a>
+    </nav>
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.scrollex.min.js"></script>
+  <script src="assets/js/jquery.scrolly.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
 </html>
