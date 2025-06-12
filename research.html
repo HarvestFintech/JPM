@@ -24,74 +24,106 @@
 </head>
 <body class="is-preload">
 
-  <!-- Header (contains nav toggle icon in top-right) -->
-  <header id="header" class="alt style2">
-    <div class="inner">
-      <a href="index.html" class="logo"><strong>Equity Research</strong></a>
-      <a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
-    </div>
-    <div class="inner">
-      <h1>Equity Research</h1>
-      <p class="subheading">Curated investment insights and analyses on select publicly traded companies</p>
-    </div>
-  </header>
+  <!-- Page Wrapper -->
+  <div id="page-wrapper">
 
-  <!-- Main Content -->
-  <div id="main" class="container">
+    <!-- Header -->
+    <header id="header" class="alt">
+      <h1><a href="index.html">Equity Research</a></h1>
+      <nav>
+        <a href="#menu">Menu</a>
+      </nav>
+    </header>
 
-    <section class="tiles">
-      <article class="style1">
-        <span class="image"><img src="images/Upwk.jpg" alt="Upwork"></span>
-        <a href="https://seekingalpha.com/article/4616903-upwork-the-future-of-upwork-looks-bright" target="_blank">
-          <h2>Upwork</h2>
-          <p>In‑depth analysis on Upwork's growth strategy and platform economics.</p>
-        </a>
-      </article>
+    <!-- Menu -->
+    <nav id="menu">
+      <ul class="links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="research.html">Equity Research</a></li>
+        <li><a href="newsletter.html">Newsletter</a></li>
+      </ul>
+    </nav>
 
-      <article class="style3">
-        <span class="image"><img src="images/BMBL.jpg" alt="Bumble"></span>
-        <a href="https://seekingalpha.com/article/4619774-bumble-swipe-right-on-growth" target="_blank">
-          <h2>Bumble</h2>
-          <p>Comprehensive equity research on Bumble’s revenue trajectory and market positioning.</p>
-        </a>
-      </article>
-
-      <article class="style2">
-        <span class="image"><img src="images/SNAP.jpg" alt="Snap"></span>
-        <a href="https://seekingalpha.com/article/4615915-snap-embracing-the-potential-of-long-term-growth" target="_blank">
-          <h2>Snap</h2>
-          <p>Forward-looking study of Snap's innovation cycle and monetization roadmap.</p>
-        </a>
-      </article>
-    </section>
-
-    <section id="cta" class="wrapper style3">
+    <!-- Banner -->
+    <section id="banner">
       <div class="inner">
-        <header><h2>Want to see more?</h2><p>Explore all reports on Seeking Alpha.</p></header>
-        <ul class="actions stacked">
-          <li><a href="https://seekingalpha.com/author/caserta-finance" class="button fit primary" target="_blank">View all Equity Research Reports</a></li>
-        </ul>
+        <h2>Equity Research</h2>
+        <p class="subheading">Curated investment insights and analyses on select publicly traded companies</p>
       </div>
     </section>
 
+    <!-- Main -->
+    <div id="main" class="container">
+
+      <!-- Tiles -->
+      <section class="tiles">
+
+        <article class="style1">
+          <span class="image">
+            <img src="images/Upwk.jpg" alt="Upwork" />
+          </span>
+          <a href="https://seekingalpha.com/article/4616903-upwork-the-future-of-upwork-looks-bright" target="_blank">
+            <h2>Upwork</h2>
+            <div class="content">
+              <p>An in-depth equity research report exploring Upwork's long-term growth strategy, platform economics, and market opportunity.</p>
+            </div>
+          </a>
+        </article>
+
+        <article class="style3">
+          <span class="image">
+            <img src="images/BMBL.jpg" alt="Bumble" />
+          </span>
+          <a href="https://seekingalpha.com/article/4619774-bumble-swipe-right-on-growth" target="_blank">
+            <h2>Bumble</h2>
+            <div class="content">
+              <p>A comprehensive analysis of Bumble's revenue trajectory, product evolution, and market positioning in the dating app sector.</p>
+            </div>
+          </a>
+        </article>
+
+        <article class="style2">
+          <span class="image">
+            <img src="images/SNAP.jpg" alt="Snap" />
+          </span>
+          <a href="https://seekingalpha.com/article/4615915-snap-embracing-the-potential-of-long-term-growth" target="_blank">
+            <h2>Snap</h2>
+            <div class="content">
+              <p>A forward-looking analysis of Snap's product innovation, monetization roadmap, and valuation upside.</p>
+            </div>
+          </a>
+        </article>
+
+      </section>
+
+      <!-- CTA -->
+      <section id="cta" class="wrapper style3">
+        <div class="inner">
+          <header>
+            <h2>Want to see more?</h2>
+            <p>Explore the full collection of my equity research reports and articles on Seeking Alpha.</p>
+          </header>
+          <ul class="actions stacked">
+            <li><a href="https://seekingalpha.com/author/caserta-finance" class="button fit primary" target="_blank">View all Equity Research Reports</a></li>
+          </ul>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="inner">
+        <ul class="copyright">
+          <li>&copy; 2025. All rights reserved.</li>
+        </ul>
+      </div>
+    </footer>
+
   </div>
 
-  <!-- Footer -->
-  <footer id="footer">
-    <div class="inner"><ul class="copyright"><li>&copy; 2025 All rights reserved.</li></ul></div>
-  </footer>
-
-  <!-- Nav Panel -->
-  <div id="navPanel">
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="portfolio.html">Portfolio</a>
-      <a href="research.html">Equity Research</a>
-      <a href="newsletter.html">Newsletter</a>
-    </nav>
-  </div>
-
-  <!-- JS -->
+  <!-- Scripts -->
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/js/jquery.scrollex.min.js"></script>
   <script src="assets/js/jquery.scrolly.min.js"></script>
