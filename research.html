@@ -20,13 +20,36 @@
       margin-bottom: 1.5em;
     }
 
-    /* Optional: ensure the header has a bottom margin so no overlap */
-    #header {
-      margin-bottom: 0;
-      position: relative; /* keep normal flow */
-      z-index: 10; /* ensure header is above */
-    }
-  </style>
+  #header {
+    position: relative;
+    padding-bottom: 1em;
+    background-color: #0a2540; /* navy background */
+    color: #fff;
+  }
+
+  #header h1 {
+    margin: 0;
+    font-size: 2em;
+    line-height: 1.2;
+    display: block;
+    color: #fff;
+  }
+
+  #header .subtitle {
+    color: #fff;
+    font-size: 1em;
+    margin: 0.25em 0 0 0;
+    text-align: left; /* or center */
+    max-width: 600px;
+  }
+
+  #header nav {
+    position: absolute;
+    top: 1.25em;
+    right: 1em;
+  }
+</style>
+
 </head>
 
 <body class="is-preload">
@@ -35,12 +58,14 @@
   <div id="page-wrapper">
 
     <!-- Header -->
-    <header id="header" class="alt">
-      <h1><a href="index.html">Equity Research</a></h1>
-      <nav>
-        <a href="#menu">Menu</a>
-      </nav>
-    </header>
+   <header id="header" class="alt">
+  <h1><a href="index.html">Equity Research</a></h1>
+  <p class="subtitle">Curated investment insights and analyses on select publicly traded companies</p>
+  <nav>
+    <a href="#menu">Menu</a>
+  </nav>
+</header>
+
 
     <!-- New Intro Bar placed immediately below header -->
     <section class="intro-bar">
