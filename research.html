@@ -23,18 +23,19 @@
     text-shadow: none;
   }
 
-  /* Shrink banner section height and font size */
-  #banner {
+  /* More specific override for shrinking the banner */
+  section#banner {
     padding: 2em 0 !important;
-    min-height: auto !important;
+    min-height: unset !important;
   }
 
-  #banner h2.major {
-    font-size: 1.5em;
-    line-height: 1.4;
-    margin: 0;
+  section#banner .inner h2.major {
+    font-size: 1.5em !important;
+    line-height: 1.4 !important;
+    margin: 0 !important;
   }
 </style>
+
 
 </head>
 <body class="is-preload">
