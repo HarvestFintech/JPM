@@ -7,23 +7,21 @@
   <link rel="stylesheet" href="assets/css/main.css" />
 
   <style>
-    /* Style for the new intro bar between header and content */
-    .intro-bar {
-      background-color: #0a2540; /* Navy, same as header/nav */
-      color: #fff;               /* White text */
-      padding: 0.75em 1em;
-      font-size: 1.1em;
-      font-weight: 400;
-      text-align: center;
-      /* Make sure it sits right below header without overlap */
-      margin-top: 0;
-      margin-bottom: 1.5em;
-    }
+  /* Style for the new intro bar between header and content */
+  .intro-bar {
+    background-color: #0a2540; /* Navy, same as header/nav */
+    color: #fff;               /* White text */
+    padding: 0.75em 1em;
+    font-size: 1.1em;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;                 /* No top margin */
+  }
 
   #header {
     position: relative;
-    padding-bottom: 1em;
-    background-color: #0a2540; /* navy background */
+    padding-bottom: 0.5em;      /* less bottom padding */
+    background-color: #0a2540;  /* navy background */
     color: #fff;
   }
 
@@ -33,14 +31,6 @@
     line-height: 1.2;
     display: block;
     color: #fff;
-  }
-
-  #header .subtitle {
-    color: #fff;
-    font-size: 1em;
-    margin: 0.25em 0 0 0;
-    text-align: left; /* or center */
-    max-width: 600px;
   }
 
   #header nav {
@@ -58,19 +48,17 @@
   <div id="page-wrapper">
 
     <!-- Header -->
-   <header id="header" class="alt">
+  <header id="header" class="alt">
   <h1><a href="index.html">Equity Research</a></h1>
-  <p class="subtitle">Curated investment insights and analyses on select publicly traded companies</p>
   <nav>
     <a href="#menu">Menu</a>
   </nav>
 </header>
 
-
-    <!-- New Intro Bar placed immediately below header -->
-    <section class="intro-bar">
-      Curated investment insights and analyses on select publicly traded companies
-    </section>
+<!-- New Intro Bar placed immediately below header -->
+<section class="intro-bar">
+  Curated investment insights and analyses on select publicly traded companies
+</section>
 
     <!-- Menu -->
     <nav id="menu">
